@@ -34,11 +34,11 @@ public class Conexion {
          */
         this.driver = "com.mysql.cj.jdbc.Driver";
         this.url = "jdbc:mysql://";
-        this.ip = "localhost";
+        this.ip = "172.17.0.2";
         this.puerto = "3306";
         this.db = "reporte";
         this.user = "root";
-        this.pwd = "Root.123";
+        this.pwd = "root";
     }
 
     /**

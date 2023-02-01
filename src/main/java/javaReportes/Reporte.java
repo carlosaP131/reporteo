@@ -67,7 +67,7 @@ public class Reporte extends javax.swing.JFrame {
         try {
             conexion = new Conexion();
             //conection = (Connection) conexion.getConnection();
-            String path="/home/oscar/NetBeansProjects/appReportes/src/main/java/unsis/app/reportes/appreportes/report1.jasper";
+            String path="/home/labdessw09/NetBeansProjects/reportes-con-jasper/src/main/java/unsis/app/reportes/appreportes/report1.jasper";
             JasperReport jr=null;
             System.out.println("xgqsxgjksbx");
             jr=(JasperReport) JRLoader.loadObjectFromFile(path);
